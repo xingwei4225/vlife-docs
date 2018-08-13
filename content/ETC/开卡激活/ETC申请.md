@@ -1,9 +1,9 @@
 +++
-title = "快速入门"
+title = "ETC申请"
 date = 2018-01-28T21:48:10+01:00
 description = ""
 weight = 10
-tags = ["服务器1"]
+tags = ["user"]
 +++
 
 # 个人版快速入门概述 {#concept_qwg_lbh_vdb .concept}

@@ -2,7 +2,7 @@
 title = "Getting started"
 description = ""
 weight = 96
-alwaysopen = true
+alwaysopen = false
 +++
 
 ## Requirements

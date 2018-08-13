@@ -1,50 +1,27 @@
 +++
-title = "DocDock Theme for Hugo"
+title = "保多多—帮助与文档中心"
 description = ""
 +++
 
-# Hugo docDock theme
-[Hugo-theme-docdock {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docdock) is a theme for Hugo, a fast and modern static website engine written in Go. Hugo is often used for blogs, **this theme is fully designed for documentation.**
-
-This theme is a partial porting of the [Learn theme of matcornic {{%icon fa-github%}}](https://github.com/matcornic/hugo-theme-learn). and its default style "flex" comes from [facette.io](https://github.com/facette)'s documentation.
-
-{{%panel%}}docDock works with a "page tree structure" to organize content : All contents are pages, which belong to other pages. [read more about this]({{%relref "content-organisation/_index.md"%}}) {{%/panel%}}
-
-## Main features
-
-* [Automatic Search]({{%relref "search/_index.md" %}})
-* **Unlimited menu levels**
-* [Generate RevealJS presentation]({{%relref "page-slide.md"%}}) from markdown (embededed or fullscreen page)
-* Automatic next/prev buttons to navigate through menu entries
-* [Image resizing, shadow...]({{%relref "create-page/page-images.md" %}})
-* [Attachments files]({{%relref "shortcodes/attachments.md" %}})
-* [List child pages]({{%relref "shortcodes/children/_index.md" %}})
-* [Excerpt]({{%relref "shortcodes/excerpt.md"%}}) ! Include segment of content from one page in another
-* [Mermaid diagram]({{%relref "shortcodes/mermaid.md" %}}) (flowchart, sequence, gantt)
-* [Icons]({{%relref "shortcodes/icon.md" %}}), [Buttons]({{%relref "shortcodes/button.md" %}}), [Alerts]({{%relref "shortcodes/alert.md" %}}), [Panels]({{%relref "shortcodes/panel.md" %}}), [Tip/Note/Info/Warning boxes]({{%relref "shortcodes/notice.md" %}}), [Expand]({{%relref "shortcodes/expand.md" %}})
-* [customizable look and feel]({{%relref "content-organisation/customize-style/_index.md"%}}), [theme style]({{%relref "content-organisation/customize-style/themestyle.md"%}}), [theme variants]({{%relref "content-organisation/customize-style/theme-variants.md"%}})
+# 保多多—帮助与文档中心
 
 
+保多多平台各类业务的办理流程、售后服务帮助中心。
 
-Style "Flex" (default)
+## 使用对象
+{{%alert%}}产品用户、运营人员、线上客服{{%/alert%}}
 
-![](style-flex.png?classes=border,shadow)
+## 适用产品
 
-Style "Original"
+* {{%icon phone%}}[手机APP](http://a.app.qq.com/o/simple.jsp?pkgname=com.witgo.env&g_f=991653)(保多多, 行云天下商家, 保多多顾问)
+* **{{%icon fa-weixin%}}微信公众号**（保多多，保多多大使）
+* **支付宝城市服务**（车主服务）
+* **微信小程序**（保多多周末游、保多多路况、自导自游）
 
-![](style-original.png?classes=border,shadow)
+## 编制原则
+{{%panel%}}
+1. 文档的目录结构按照业务类型进行划分，例如：ETC业务，车驾管业务，保险业务，用户中心，会员业务等；
+2. 目录和文档可以使用中文命名，但中间尽量**不要有空格**;
+3. 图片统一存储在阿里云OSS上面，文档中通过URL地址进行引用，除了项目本身渲染样式之外，不允许在项目目录中存储文件、图片；
 
-## Contribute to this documentation
-Feel free to update this content, just click the **Edit this page** link displayed on top right of each page, and pullrequest it
-{{%alert%}}Your modification will be deployed automatically when merged.{{%/alert%}}
-
-
-## Documentation website
-This current documentation has been statically generated with Hugo with a simple command : `hugo -t docdock` -- source code is [available here at GitHub {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docDock)
-
-{{% panel theme="success" header="Automated deployments" footer="Netlify builds, deploys, and hosts  frontends." %}}
-Automatically published and hosted thanks to [Netlify](https://www.netlify.com/).
-
-Read more about [Automated HUGO deployments with Netlify](https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/)
-{{% /panel %}}
-
+{{%/panel%}}

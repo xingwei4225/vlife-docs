@@ -2,7 +2,7 @@ baseURL = "https://xingwei4225.github.io/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "ch"
-title = "保多多—文档中心"
+title = "保多多—帮助与文档中心"
 theme = "docdock"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
@@ -55,7 +55,7 @@ weight = 11
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-bookmark'></i> <label>Demo</label>"
-url = "https://themes.gohugo.io/theme/docdock/"
+url = "https://docdock.netlify.com/"
 weight = 12
 
 

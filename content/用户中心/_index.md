@@ -1,9 +1,10 @@
 +++
-title = "个人中心"
+title = "用户中心"
 description = "个人信息管理"
-weight = 1
-alwaysopen = true
+weight = 20
+alwaysopen = false
 tags = ["app","webchat"]
+pre ="<i class='fa fa-user' ></i> "
 +++
 
 ## 个人中心

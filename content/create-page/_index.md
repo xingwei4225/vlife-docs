@@ -8,7 +8,6 @@ lastmodifierdisplayname = "Valere JEANTET"
 lastmodifieremail = "valere.jeantet@gmail.com"
 tags = ["tag1","tag2"]
 weight = 90
-pre ="<i class='fa fa-edit' ></i> "
 
 +++
 
