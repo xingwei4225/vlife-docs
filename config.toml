@@ -7,7 +7,7 @@ theme = "docdock"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "ch"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
@@ -26,7 +26,7 @@ enableMissingTranslationPlaceholders = false
 
 
 [params]
-editURL = "https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/"
+editURL = "https://github.com/xingwei4225/vlife-docs/tree/master/content/"
 showVisitedLinks = true # default is false
 themeStyle = "flex" # "original" or "flex" # default "flex"
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
@@ -35,7 +35,7 @@ disableHomeIcon = false # default is false
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
 highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
-menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
+menushortcutsnewtab = true # set true to open shortcuts links to a new tab/window
 enableGitInfo = true
 
 [outputs]
@@ -53,9 +53,14 @@ name = "<i class='fa fa-cloud-download'></i> <label>APP下载</label>"
 url = "http://a.app.qq.com/o/simple.jsp?pkgname=com.witgo.env&g_f=991653"
 weight = 11
 
+[[menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> <label>Demo</label>"
+url = "https://themes.gohugo.io/theme/docdock/"
+weight = 12
+
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-github'></i> <label>docdock</label>"
 identifier = "ds"
 url = "https://github.com/vjeantet/hugo-theme-docdock"
-weight = 12
+weight = 13

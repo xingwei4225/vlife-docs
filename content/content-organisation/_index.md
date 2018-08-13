@@ -1,7 +1,7 @@
 +++
 title = "Content Organisation"
 description = ""
-weight = 20
+weight = 97
 +++
 
 With **Hugo**, pages are the core of your site. Organize your site like any other Hugo project. **Magic occurs with the nested sections implemention done in v0.22 of hugo (congrats @bep)**.
@@ -56,7 +56,7 @@ example to display a "Hello"
 
 in the page frontmatter, add a `pre` param to insert any HTML code before the menu label:
 
-example to display a github icon 
+example to display a github icon
 
 	+++
 	title = "Github repo"
@@ -132,7 +132,4 @@ Content organization **is** your `content` folder structure.
 
 ### Homepage
 
-Find out how to [customize homepage]({{%relref "homepage.md"%}}) 
-
-
-
+Find out how to [customize homepage]({{%relref "homepage.md"%}})

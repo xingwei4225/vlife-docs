@@ -1,0 +1,15 @@
+<!-- taxonomy list -->
+<ul class="children children-h3">
+{{ range $index, $element := $.Paginator.Pages }}
+<span>
+  <h4>
+	  <a href="{{.URL}}" >{{add $index 1}}、{{ .Title }}</a>
+  </h4>
+  {{- if .Description}}
+  <p>{{.Description}}</p>
+  {{- else}}
+  <p>{{.Summary}}</p>
+  {{- end}}
+</span>
+{{ end }}
+<ur>

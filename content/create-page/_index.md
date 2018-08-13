@@ -7,7 +7,7 @@ creatoremail = "valere.jeantet@gmail.com"
 lastmodifierdisplayname = "Valere JEANTET"
 lastmodifieremail = "valere.jeantet@gmail.com"
 tags = ["tag1","tag2"]
-weight = 10
+weight = 90
 pre ="<i class='fa fa-edit' ></i> "
 
 +++
@@ -49,6 +49,6 @@ Hugo-theme-docdock uses the following parameters on top of the existing ones :
 
 Hugo provides a flexible way to handle order for your pages.
 
-The simplest way is to use `weight` parameter in the front matter of your page. 
+The simplest way is to use `weight` parameter in the front matter of your page.
 
 [{{%icon circle-arrow-right%}}Read more on content organization]({{%relref "content-organisation/_index.md"%}})
